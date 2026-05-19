@@ -123,7 +123,7 @@ mainfont: "Calibri"
 - **Cap current-role bullets at 5-7.** Past-role bullets at 4 max.
 - **Outcomes, not stacks.** What does it do for the business? Not what it's built from.
 - **Vary lead verbs.** No three in a row starting the same.
-- **Em-dashes are fine** as bullet-internal separators.
+- **No em dashes.** Use commas, hyphens, or spaced single dashes (" - ") instead.
 - **Drop excessive bolding.** Bold the artifact name and the metric. Not every other phrase.
 
 ## Build Workflow

@@ -14,7 +14,7 @@ This is a **post-processing step**, not a generator. The draft already exists; t
 
 | Content type | What humanize-pass does | What it does NOT do |
 |---|---|---|
-| **Cover letter** | Adds first-person + contractions, varies opener/closer/sign-off, strips em-dash overuse, removes AI-tell phrases | Doesn't touch metrics, doesn't soften gap disclosures, doesn't change structure |
+| **Cover letter** | Adds first-person + contractions, varies opener/closer/sign-off, strips all em dashes (replace with commas/hyphens/spaced dashes), removes AI-tell phrases | Doesn't touch metrics, doesn't soften gap disclosures, doesn't change structure |
 | **LinkedIn DM / outreach** | Same as cover letter, plus enforces personalization line and zero-em-dash rule | Doesn't generate new content from scratch |
 | **Resume Professional Summary** | **STRIPS first-person and contractions**, enforces ALL CAPS section header, single-paragraph rule, length cap (~120 words), removes "Combines X with Y" / "Brings the rare combination" patterns | Doesn't touch bullets unless format is wrong |
 | **Resume Experience entry** | Format-only: ensures date-first format, ensures no `##` markdown heading | Doesn't rewrite bullet content unless lead-verb-repeats are obvious |
@@ -41,7 +41,7 @@ Do **not** run it on:
 1. **Read the draft.** Identify the content type (cover letter / DM / resume PS / resume Experience entry / etc.) and route to the matching rule set.
 
 2. **For cover letters and DMs — audit against COVER LETTER rules:**
-   - Em-dashes (≤2 per cover letter, 0 per DM)
+   - Em dashes (0 everywhere - replace with commas, hyphens, or spaced single dashes)
    - `**Bold noun**, **Bold noun**, **Bold noun**` chains in body prose
    - `not X, but Y` constructions
    - Triadic constructions (X, Y, and Z)
@@ -68,7 +68,7 @@ Do **not** run it on:
 
 4. **Rewrite to fit the relevant rule set.** Specific moves:
 
-   **Em-dash → period or comma.** Break long em-dash chains into shorter sentences.
+   **Em dash → period, comma, or spaced hyphen.** Break long em-dash chains into shorter sentences. No em dashes in any output.
 
    **Bold-noun chains → mixed prose.** Drop excessive bolds in body prose; keep them in bullets where they cue the eye.
 
@@ -148,7 +148,7 @@ Then save the rewrites.
 > 
 > - **Kubernetes migration.** Led the move of 200+ microservices from on-prem to EKS across a 40-person engineering org...
 
-Em-dash count went from 1 to 0. Opener varied. "Three things to call out" replaces "Highlights:" pattern. Personal aside added ("without the title"). Same content, same metrics, same honest disclosures.
+Em dash count: 0 (as required). Opener varied. "Three things to call out" replaces "Highlights:" pattern. Personal aside added ("without the title"). Same content, same metrics, same honest disclosures.
 
 ### Resume Professional Summary — Before / After
 
