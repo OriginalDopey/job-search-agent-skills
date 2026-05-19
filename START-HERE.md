@@ -1,6 +1,6 @@
 # START HERE — AI-Assisted Job Search Operating System
 
-> Open this file first. It walks you through setting up your own job search dossier using AI agent skills, structured tracking, and career-coaching methodology (BeBold).
+> Open this file first. It walks you through setting up your own job search dossier using AI agent skills, structured tracking, and career-coaching methodology.
 
 **What this is:** A complete system for running a job search with AI assistance in Cursor (or any AI-capable IDE). It includes agent skills that automate resume tailoring, role rating, pipeline tracking, networking, and voice cleanup — plus structured career-coaching worksheets to anchor your direction.
 
@@ -8,11 +8,13 @@
 
 ---
 
-## Setup (15 minutes)
+## Setup (5 minutes with LinkedIn/resume, 15 minutes manual)
 
-### Step 1: Fill in your profile
+### Step 1: Generate your profile (pick one)
 
-Create a file called `PROFILE.md` in this root folder. This is your source of truth — every skill references it.
+**Option A — Fast path (recommended):** Paste your LinkedIn URL or drop your resume into the workspace and tell the AI: **"Set me up from this."** The `quick-setup` skill will extract your info and generate `PROFILE.md` for you. You just confirm and fill in a few blanks (target comp, hard blockers).
+
+**Option B — Manual:** Create a file called `PROFILE.md` in this root folder and fill it in yourself:
 
 ```markdown
 # My Profile
@@ -44,6 +46,8 @@ Create a file called `PROFILE.md` in this root folder. This is your source of tr
 ## Education
 - [Degree] — [School] — [Year]
 ```
+
+Either way, `PROFILE.md` is your source of truth — every skill references it.
 
 ### Step 2: Fill your Career Motivators worksheet
 
@@ -81,6 +85,7 @@ Weekly Review (every Friday) → structured reflection + pipeline check
 
 | Skill | What it does | When to use |
 |---|---|---|
+| `quick-setup.md` | Imports your LinkedIn or resume → generates PROFILE.md | "Set me up" / first time using the system |
 | `role-fit-rater.md` | Scores a JD against your profile → Apply / Stretch / Skip | "Is this a fit?" / "Rate these roles" |
 | `tailored-resume-builder.md` | Builds a tailored resume + cover letter for a specific role | "Build me a resume for this role" |
 | `humanize-pass.md` | Strips AI-tells from any draft; enforces voice rules | After any resume/cover letter/DM is generated |
@@ -136,18 +141,19 @@ LINKEDIN-UPDATE-PLAYBOOK.md     ← step-by-step profile refresh guide
 
 skills/
   SKILL.md                      ← skill index + operating principles
+  quick-setup.md                ← onboarding from LinkedIn or resume
   role-fit-rater.md             ← Apply / Stretch / Skip rating
   tailored-resume-builder.md    ← resume + cover letter builder
   humanize-pass.md              ← AI-tell removal + voice enforcement
   job-tracker.md                ← pipeline tracking
-  network-mapper.md             ← BeBold networking methodology
+  network-mapper.md             ← networking methodology
 
 tracker/
   Applications.md               ← source of truth for all roles
   Pipeline.md                   ← status-grouped view
   Weekly-Review.md              ← Friday cadence template
-  Career-Motivators.md          ← BeBold motivators worksheet
-  Career-Story-Timeline.md      ← BeBold timeline worksheet
+  Career-Motivators.md          ← motivators worksheet
+  Career-Story-Timeline.md      ← career timeline worksheet
   Network.md                    ← contact map
 
 frameworks/

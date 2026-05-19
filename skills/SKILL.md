@@ -6,6 +6,7 @@
 
 | Skill | Use When | Recommended Model |
 |---|---|---|
+| `quick-setup.md` | First-time setup — user provides a LinkedIn URL, resume file, or career summary to bootstrap `PROFILE.md` | **Mid** — `claude-sonnet-4.x` or `gpt-5-mini`. Extraction and structuring only. |
 | `role-fit-rater.md` | User shares a JD, URL, or list of roles and asks "is this a fit?" / "which should I apply to?" / "rate these" | **Mid** — `claude-sonnet-4.x` or `gpt-5-mini`. Structured analysis against the rubric; no voice risk. |
 | `tailored-resume-builder.md` | User wants a tailored resume + cover letter for a specific role | **Premium for draft** — `claude-opus-4.x` or `gpt-5`. Voice and evidence accuracy both critical. Always followed by `humanize-pass.md` on a mid-tier model. |
 | `humanize-pass.md` | After any voice-critical draft (resume Professional Summary, cover letter, DM, recruiter reply) — strips AI-tells | **Mid** — `claude-sonnet-4.x` or `gpt-5-mini`. Pattern removal against a checklist. This is the cost-saver. |

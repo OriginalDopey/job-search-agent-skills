@@ -79,7 +79,7 @@ Append-only log of every conversation:
 
 ### Add a contact
 1. Append a row to `Network.md` with the next ID and `Date Added = today`.
-2. Classify Strength / Importance / Type using the BeBold rubric above.
+2. Classify Strength / Importance / Type using the rubric above.
 3. Set `Notes / Next Step` = the action you'll take next.
 4. Append to Outreach Log if there's been any contact.
 

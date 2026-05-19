@@ -29,9 +29,9 @@ A folder of markdown files + AI agent "skills" that turn your code editor into a
 
 1. Clone this repo (or download the zip)
 2. Open in [Cursor](https://cursor.com) or your AI IDE of choice
-3. Read `START-HERE.md` — it walks you through setup in 15 minutes
-4. Create your `PROFILE.md` (your source of truth)
-5. Fill your Career Motivators worksheet (20-30 min)
+3. **Paste your LinkedIn URL or drop your resume** and say **"set me up"** — the system generates your profile automatically
+4. Confirm your profile, add your target comp and any hard blockers
+5. Fill your Career Motivators worksheet (20-30 min, optional but recommended)
 6. Start rating roles: paste a JD and say "rate this role for me"
 
 ---
@@ -46,6 +46,7 @@ LINKEDIN-UPDATE-PLAYBOOK.md     ← step-by-step profile refresh
 
 skills/                         ← AI agent behavioral specs
   SKILL.md                      ← index + operating principles
+  quick-setup.md                ← onboarding from LinkedIn/resume
   role-fit-rater.md             ← Apply / Stretch / Skip rating
   tailored-resume-builder.md    ← resume + cover letter builder
   humanize-pass.md              ← AI-tell removal + voice rules
@@ -74,6 +75,7 @@ resumes/                        ← your resumes live here
 
 The `skills/` folder contains behavioral specs that any AI model can follow. When you're in Cursor:
 
+- Say **"Set me up"** + paste LinkedIn URL or resume → the `quick-setup` skill generates your profile
 - Say **"Rate this role"** + paste a JD → the `role-fit-rater` skill scores it
 - Say **"Build me a resume for this"** → the `tailored-resume-builder` skill creates one
 - Say **"Humanize this"** → the `humanize-pass` skill strips AI-tells
