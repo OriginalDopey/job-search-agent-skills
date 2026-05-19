@@ -1,0 +1,58 @@
+---
+description: Voice and format rules for all resume and cover letter generation in this workspace.
+globs: ["resumes/**", "*.md"]
+alwaysApply: false
+---
+
+# Voice & Format Rules
+
+## Resume Professional Summary
+- NO first-person ("I", "I've", "I'm")
+- NO contractions
+- ONE paragraph, ~120 words max
+- NO "Combines X with Y" or "Brings the rare combination"
+- Lead with role-class noun phrase
+- End with 1-2 short factual sentences
+
+## Resume Format
+- Section headers: **ALL CAPS BOLD** (not ## markdown)
+- Experience: date-first in bold, then company, then location
+- Education: school+location plain, bold degree
+- No "References available upon request"
+- No "Affiliations" → use "EXTRA-CURRICULAR"
+- Current role: 5-7 bullets max
+- Past roles: 4 bullets max
+
+## Resume Bullets
+- Outcomes over tech-stack detail
+- Vary lead verbs (no 3 in a row same)
+- Bold artifact name + metric only
+- Em-dashes OK as separators (sparingly)
+
+## Cover Letters (OPPOSITE voice from resume)
+- First-person required
+- Contractions required (≥1 per paragraph)
+- Personal aside required (≥1 per letter)
+- Em-dashes: ≤2 per letter, 0 per DM
+- Vary openers across letters
+- Vary closers across letters
+- Vary sign-offs (never default "Best regards")
+- ~350-400 words
+
+## Banned Phrases (remove on sight)
+- "leveraging"
+- "delve into"
+- "robust"
+- "comprehensive" (as praise)
+- "seamless"
+- "cutting-edge"
+- "landscape" (unless geographic)
+- "Combines X with Y"
+- "Brings the rare combination"
+- "I'm thrilled"
+- "passionate about"
+
+## Auditability
+- Every metric must trace to PROFILE.md
+- Never invent numbers
+- If unsourced, stop and ask user to confirm

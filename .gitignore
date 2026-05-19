@@ -1,0 +1,13 @@
+# Personal data (don't commit your filled-in profile)
+PROFILE.md
+
+# Output files
+output/
+*.docx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor state
+.vscode/
