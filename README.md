@@ -103,7 +103,7 @@ Found a bug? Have an improvement? PRs welcome. The system is intentionally simpl
 
 If this system helped you land interviews or saved you hours of resume-tailoring pain, consider buying me a coffee:
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-yellow?style=flat-square&logo=buy-me-a-coffee)](https://buymeacoffee.com/davearichards)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-yellow?style=flat-square&logo=buy-me-a-coffee)](https://buymeacoffee.com/originaldopey)
 
 ---
 
